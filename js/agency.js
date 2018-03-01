@@ -48,3 +48,13 @@
   })
 
 })(jQuery); // End of use strict
+
+//Animated Skillbars
+$(function(){
+	$('.skillbar').each(function(){
+		$(this).find('.skillbar-bar').animate({
+			width:$(this).attr('data-percent')
+		},6000);
+	});
+});
+//End of Animated Skillbars
