@@ -167,7 +167,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background: -webkit-linear-gradient(#373737, FFD32F);
+  background: #373737;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -693,7 +693,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #FFD32F;
 }
 
-
+/*
 .skillbar {
   position: relative;
   display: block;
@@ -766,3 +766,4 @@ border-bottom-left-radius:3px;
   color: #fff;
   color: rgba(0, 0, 0, 0.4);
 }
+*/
