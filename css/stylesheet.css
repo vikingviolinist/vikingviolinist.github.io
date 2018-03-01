@@ -167,10 +167,10 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background: -webkit-linear-gradient(#373737, #FFD32F);
-  background: -moz-linear-gradient(#373737, #FFD32F);
+  background: #FFD32F;
+  /*background: -moz-linear-gradient(#373737, #FFD32F);
   background: -o-linear-gradient(#373737, #FFD32F);
-  background: -ms-linear-gradient(#373737, #FFD32F);
+  background: -ms-linear-gradient(#373737, #FFD32F);*/
 
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -183,7 +183,7 @@ header.masthead {
 
 header.masthead .intro-text {
   padding-top: 150px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 header.masthead .intro-text .intro-lead-in {
