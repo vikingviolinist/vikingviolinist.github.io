@@ -693,7 +693,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #FFD32F;
 }
 
-/*
+/*styling the skillbars*/
 .skillbar {
   position: relative;
   display: block;
@@ -766,4 +766,3 @@ border-bottom-left-radius:3px;
   color: #fff;
   color: rgba(0, 0, 0, 0.4);
 }
-*/
