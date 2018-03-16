@@ -222,9 +222,26 @@ header.masthead .intro-text .intro-heading {
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
     font-style: italic;
-    line-height: 40px;
+    line-height: 42px;
     margin-bottom: 25px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    border-right: 15em solid white;
+    margin: 0 auto;
+    white-space: nowrap;
+    animation: 
+      typewriter 4s steps(44, end),
+      blinkTextCursor 500ms steps(44) infinite;
+  }
+
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 100%}
+  }
+  @keyframes blinkTextCursor{
+    from, to { border-color: transparent }
+    50% {border-color: #fff; }
+  }
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
