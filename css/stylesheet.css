@@ -197,11 +197,11 @@ header.masthead .intro-text .intro-lead-in {
     blinkTextCursor 500ms steps(44) infinite;
 }
 
-@keyframes typewriter{
+@keyframes typing{
   from{width: 0;}
   to{width: 100%}
 }
-@keyframes blinkTextCursor{
+@keyframes blink-caret {
   from, to { border-color: transparent }
   50% {border-color: #fff; }
 }
@@ -231,14 +231,14 @@ header.masthead .intro-text .intro-heading {
     white-space: nowrap;
     animation: 
       typewriter 4s steps(44, end),
-      blinkTextCursor 500ms steps(44) infinite;
+      blinkTextCursor 500ms steps-end infinite;
   }
 
-  @keyframes typewriter{
+  @keyframes typing{
     from{width: 0;}
     to{width: 100%}
   }
-  @keyframes blinkTextCursor{
+  @keyframes blink-caret{
     from, to { border-color: transparent }
     50% {border-color: #fff; }
   }
