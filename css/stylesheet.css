@@ -192,6 +192,15 @@ header.masthead .intro-text .intro-lead-in {
     blinkTextCursor 500ms steps(44) infinite normal;
 }
 
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
 header.masthead .intro-text .intro-heading {
   font-size: 50px;
   font-weight: 700;
