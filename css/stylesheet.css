@@ -188,17 +188,20 @@ header.masthead .intro-text .intro-lead-in {
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-    blinkTextCursor 500ms steps(44) infinite normal;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: 
+    typewriter 4s steps(44, end),
+    blinkTextCursor 500ms steps(44) infinite;
 }
 
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 24em;}
+  to{width: 100%}
 }
 @keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
+  from, to { border-color: transparent }
+  50% {border-color: #fff; }
 }
 
 header.masthead .intro-text .intro-heading {
