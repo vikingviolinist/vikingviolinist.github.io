@@ -189,12 +189,14 @@ header.masthead .intro-text .intro-lead-in {
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow: hidden;
-  border-right: 1.5em solid white;
+  border-right: 2px solid white;
   margin: 0 auto;
   white-space: nowrap;
   animation: 
     typewriter 4s steps(44, end),
     blinkTextCursor 500ms steps(44) infinite;
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes typing{
@@ -226,12 +228,14 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 25px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow: hidden;
-    border-right: 1.5em solid white;
+    border-right: 2px solid white;
     margin: 0 auto;
     white-space: nowrap;
     animation: 
       typewriter 4s steps(44, end),
       blinkTextCursor 500ms steps-end infinite;
+    display: flex;
+    justify-content: center;
   }
 
   @keyframes typing{
