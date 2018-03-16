@@ -1,5 +1,7 @@
 body {
   overflow-x: hidden;
+  display: flex;
+  justify-content: center;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -189,7 +191,7 @@ header.masthead .intro-text .intro-lead-in {
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow: hidden;
-  border-right: 2px solid white;
+  border-right: .15em solid white;
   margin: 0 auto;
   white-space: nowrap;
   animation: 
@@ -228,7 +230,7 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 25px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow: hidden;
-    border-right: 2px solid white;
+    border-right: .15em solid white;
     margin: 0 auto;
     white-space: nowrap;
     animation: 
