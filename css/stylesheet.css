@@ -187,18 +187,15 @@ header.masthead .intro-text {
 header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
   font-style: italic;
-  line-height: 25px;
+  line-height: 27px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow: hidden;
   border-right: .15em solid white;
-  margin: 0 auto;
   white-space: nowrap;
   animation: 
     typewriter 4s steps(44, end),
     blinkTextCursor 500ms steps(44) infinite;
-  display: flex;
-  justify-content: center;
 }
 
 @keyframes typing{
@@ -226,18 +223,15 @@ header.masthead .intro-text .intro-heading {
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
     font-style: italic;
-    line-height: 42px;
+    line-height: 47px;
     margin-bottom: 25px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow: hidden;
     border-right: .15em solid white;
-    margin: 0 auto;
     white-space: nowrap;
     animation: 
       typewriter 4s steps(44, end),
       blinkTextCursor 500ms steps-end infinite;
-    display: flex;
-    justify-content: center;
   }
 
   @keyframes typing{
@@ -248,7 +242,8 @@ header.masthead .intro-text .intro-heading {
     from, to { border-color: transparent }
     50% {border-color: #fff; }
   }
-  }
+} 
+
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
@@ -256,7 +251,6 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 50px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
-}
 
 .service-heading {
   margin: 15px 0;
