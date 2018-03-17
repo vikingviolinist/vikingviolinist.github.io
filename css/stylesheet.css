@@ -188,21 +188,6 @@ header.masthead .intro-text .intro-lead-in {
   line-height: 27px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow: hidden;
-  border-right: .15em solid white;
-  white-space: nowrap;
-  animation: 
-    typewriter 4s steps(44, end),
-    blinkTextCursor 500ms steps(44) infinite;
-}
-
-@keyframes typing{
-  from{width: 0;}
-  to{width: 100%}
-}
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% {border-color: #fff; }
 }
 
 header.masthead .intro-text .intro-heading {
@@ -224,22 +209,6 @@ header.masthead .intro-text .intro-heading {
     line-height: 47px;
     margin-bottom: 25px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    overflow: hidden;
-    border-right: .15em solid white;
-    white-space: nowrap;
-    animation: 
-      typewriter 4s steps(44, end),
-      blinkTextCursor 500ms steps-end infinite;
-  }
-
-  @keyframes typing{
-    from{width: 0;}
-    to{width: 100%}
-  }
-  @keyframes blink-caret{
-    from, to { border-color: transparent }
-    50% {border-color: #fff; }
-  }
 } 
 
   header.masthead .intro-text .intro-heading {
@@ -649,7 +618,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   position: relative;
   display: block;
   margin-top: 15px;
-  width: 100%;
+  width: 60%;
   background: #eee;
   height: 35px;
   border-radius: 3px;
