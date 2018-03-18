@@ -36,7 +36,7 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 section h3.section-subheading {
@@ -62,6 +62,7 @@ section h3.section-subheading {
 .btn-xl {
   font-size: 18px;
   padding: 20px 40px;
+  margin-top: 25px;
 }
 
 .btn-primary {
