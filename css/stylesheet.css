@@ -168,6 +168,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
+  height: 100vh;
   background: linear-gradient(175deg, #373737 50%, #fff);
   background-repeat: no-repeat;
   background-attachment: scroll;
