@@ -62,7 +62,7 @@ section h3.section-subheading {
 .btn-xl {
   font-size: 18px;
   padding: 20px 40px;
-  margin-top: 35px;
+  margin-top: 45px;
 }
 
 .btn-primary {
@@ -187,7 +187,7 @@ header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
   font-style: italic;
   line-height: 22px;
-  margin-bottom: 35px;
+  margin-bottom: 45px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -690,4 +690,12 @@ border-bottom-left-radius:3px;
 
 .skill-bar-perce img {
   height: 100%;
+}
+
+section div svg {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 2px;
+  right: 2px;
 }
