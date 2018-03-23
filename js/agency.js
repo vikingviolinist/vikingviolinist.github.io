@@ -49,6 +49,14 @@
 
 })(jQuery); // End of use strict
 
+// Typing effect on welcome page
+$(function()) {
+  $('.intro-lead-in').typed({
+    strings: ["Jeg heter Michal...", "Jeg liker å bygge ting."],
+    typespeed: 0
+  });
+});
+
 //Animated Skillbars
 $(function(){
 	$('.skillbar').each(function(){
