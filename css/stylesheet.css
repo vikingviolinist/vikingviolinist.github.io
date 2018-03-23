@@ -386,12 +386,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#education {
-  background: #484848;
+  background: #383838;
   color: #fff;
-}
-
-section#education .text-muted {
-  color: #F8F9FA;
 }
 
 .timeline {
@@ -584,7 +580,6 @@ footer {
   padding: 25px 0;
   text-align: center;
   background: #9F9F9F;
-  margin: 1px solid #E9ECEF;
 }
 
 footer span.copyright {
