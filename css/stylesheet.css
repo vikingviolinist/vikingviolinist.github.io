@@ -201,7 +201,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 170px;
+    padding-top: 150px;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
@@ -386,7 +386,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#education {
-  background: #383838;
+  background: linear-gradient(175deg, #F8F9FA 50%, #373737);
   color: #fff;
 }
 
