@@ -621,11 +621,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 /*styling the skillbars*/
-#skillbar {
-  padding-right: 60px;
-  padding-left: 60px;
-}
-
 .skillbar {
   position: relative;
   display: block;
