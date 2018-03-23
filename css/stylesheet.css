@@ -385,6 +385,11 @@ header.masthead .intro-text .intro-heading {
   background-color: #373737;
 }
 
+#education {
+  background: #3B3B3B;
+  color: #fff;
+}
+
 .timeline {
   position: relative;
   padding: 0;
