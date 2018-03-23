@@ -36,7 +36,7 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 section h3.section-subheading {
@@ -390,6 +390,10 @@ section#education {
   color: #fff;
 }
 
+section#education .text-muted {
+  color: #F8F9FA;
+}
+
 .timeline {
   position: relative;
   padding: 0;
@@ -579,7 +583,7 @@ section#education {
 footer {
   padding: 25px 0;
   text-align: center;
-  background: #F8F9FA;
+  background: #9F9F9F;
   margin: 1px solid #E9ECEF;
 }
 
