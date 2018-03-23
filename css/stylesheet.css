@@ -618,8 +618,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .skillbar {
   position: relative;
   display: block;
-  margin: 15px 50px 0 50px;
-  width: 60%;
+  margin: 15px 70px 0 70px;
+  width: 100%;
   background: #eee;
   height: 35px;
   border-radius: 3px;
@@ -679,7 +679,6 @@ border-bottom-left-radius:3px;
 
 .skill-bar-percent {
   position: absolute;
-  right: 10px;
   top: 0;
   right:0;
   font-size: 11px;
