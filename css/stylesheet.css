@@ -54,6 +54,22 @@ section h3.section-subheading {
   }
 }
 
+.css-typing {
+  width: 340px;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: type 5s steps(43, end);
+  animation: type 5s steps(43, end);
+}
+
+@keyframes type {
+  from { width: 0; }
+}
+
+@-webkit-keyframes type {
+  from { width: 0; }
+}
+
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
