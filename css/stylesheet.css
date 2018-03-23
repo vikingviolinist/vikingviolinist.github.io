@@ -50,7 +50,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 100px 0;
   }
 }
 
@@ -574,6 +574,8 @@ header.masthead .intro-text .intro-heading {
 footer {
   padding: 25px 0;
   text-align: center;
+  background: #F8F9FA;
+  margin: 1px solid #E9ECEF;
 }
 
 footer span.copyright {
@@ -618,7 +620,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .skillbar {
   position: relative;
   display: block;
-  margin: 15px 70px 0 70px;
+  margin-top: 15px;
   width: 100%;
   background: #eee;
   height: 35px;
