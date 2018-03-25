@@ -220,11 +220,6 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
-}
-
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -620,12 +615,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #FFD32F;
 }
 
-/*styling the skillbars*/
 .skillbar {
   position: relative;
   display: block;
-  margin-top: 15px;
-  width: 100%;
+  margin: 15px auto 0 auto;
+  width: 70%;
   background: #eee;
   height: 35px;
   border-radius: 3px;
@@ -641,6 +635,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   -moz-transition-property:width, background-color;
 -ms-transition-property:width, background-color;
 -o-transition-property:width, background-color;
+}
+
+@media (max-width: 768px) {
+  .skillbar {
+    width: 100%;
+  }
 }
 
 .skillbar-title {
