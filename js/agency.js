@@ -20,13 +20,13 @@
     $('.navbar-collapse').collapse('hide');
   });
 
-  // Activate scrollspy to add active class to navbar items on scroll
+  // Activates scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
     offset: 56
   });
 
-  // Collapse Navbar
+  // Collapses Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
@@ -34,9 +34,9 @@
       $("#mainNav").removeClass("navbar-shrink");
     }
   };
-  // Collapse now if page is not at top
+  // Collapses the navbar if page is not at the top
   navbarCollapse();
-  // Collapse the navbar when page is scrolled
+  // Collapses the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
@@ -46,7 +46,7 @@ $(function(){
 	$('.skillbar').each(function(){
 		$(this).find('.skillbar-bar').animate({
 			width:$(this).attr('data-percent')
-		},4000);
+		},5000);
 	});
 });
 //End of Animated Skillbars
