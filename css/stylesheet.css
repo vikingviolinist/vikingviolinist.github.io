@@ -39,6 +39,12 @@ section h2.section-heading {
   margin-bottom: 35px;
 }
 
+section p.section-subheading {
+  text-align: justify;
+  margin-bottom: 35px;
+}
+
+/*
 section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
@@ -47,6 +53,7 @@ section h3.section-subheading {
   text-transform: none;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+*/
 
 @media (min-width: 768px) {
   section {
@@ -207,6 +214,7 @@ header.masthead .intro-text .intro-heading {
     font-size: 55px;
     font-weight: 600;
     line-height: 60px;
+    margin-top: 140px;
     margin-bottom: 50px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
@@ -216,15 +224,7 @@ header.masthead .intro-text .intro-heading {
     line-height: 35px;
     margin-bottom: 55px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-} 
-
-  header.masthead .intro-text .intro-heading {
-    font-size: 55px;
-    font-weight: 600;
-    line-height: 60px;
-    margin-bottom: 50px;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
+  } 
 }
 
 #portfolio .portfolio-item {
