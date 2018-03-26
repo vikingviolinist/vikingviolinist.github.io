@@ -194,7 +194,6 @@ header.masthead .intro-text .intro-heading {
     font-size: 3rem;
     font-weight: 600;
     line-height: 3.1rem;
-    margin-top: 100px;
     margin-bottom: 50px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
@@ -205,6 +204,12 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 55px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   } 
+}
+
+@media (min-width: 992px) {
+  header.masthead .intro-text .intro-heading {
+    margin-top: 140px;
+  }
 }
 
 .skillbar {
