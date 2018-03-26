@@ -188,20 +188,20 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 180px;
+    padding-top: 150px;
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 55px;
+    font-size: 3rem;
     font-weight: 600;
-    line-height: 60px;
+    line-height: 3.1rem;
     margin-top: 140px;
     margin-bottom: 50px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 35px;
+    font-size: 1.7rem;
     font-style: italic;
-    line-height: 35px;
+    line-height: 1.7rem;
     margin-bottom: 55px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   } 
