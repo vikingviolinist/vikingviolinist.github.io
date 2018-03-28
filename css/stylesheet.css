@@ -134,7 +134,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
-    letter-spacing: .2rem;
+    letter-spacing: .18rem;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -174,10 +174,9 @@ header.masthead .intro-text {
 
 header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
-  font-style: italic;
   line-height: 22px;
   margin-bottom: 30px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
   
 header.masthead .intro-text .intro-heading {
@@ -201,10 +200,9 @@ header.masthead .intro-text .intro-heading {
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 1.7rem;
-    font-style: italic;
     line-height: 1.7rem;
     margin-bottom: 55px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   } 
 }
 
@@ -368,7 +366,7 @@ section div svg {
   font-size: 16px;
   font-style: italic;
   margin: 0;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #portfolio * {
