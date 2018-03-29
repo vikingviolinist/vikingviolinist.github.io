@@ -175,7 +175,6 @@ header.masthead .intro-text {
 header.masthead .intro-text .intro-lead-in {
   font-size: 1.5rem;
   line-height: 1.6rem;
-  font-style: italic;
   margin-bottom: 30px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -202,7 +201,6 @@ header.masthead .intro-text .intro-heading {
   header.masthead .intro-text .intro-lead-in {
     font-size: 1.6rem;
     line-height: 1.7rem;
-    font-style: italic;
     margin-bottom: 55px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   } 
