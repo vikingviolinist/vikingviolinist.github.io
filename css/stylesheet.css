@@ -173,10 +173,10 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
-  line-height: 22px;
+  font-size: 1.6rem;
+  line-height: 1,7rem;
   margin-bottom: 30px;
-  font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
   
 header.masthead .intro-text .intro-heading {
@@ -199,10 +199,10 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     line-height: 1.7rem;
     margin-bottom: 55px;
-    font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   } 
 }
 
@@ -365,7 +365,7 @@ section div svg {
   font-size: 16px;
   font-style: italic;
   margin: 0;
-  font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #portfolio * {
