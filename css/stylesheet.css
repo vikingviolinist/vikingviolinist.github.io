@@ -90,19 +90,17 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 12px;
+  font-size: 1.3rem;
   right: 0;
-  padding: 13px;
   text-transform: uppercase;
-  color: white;
+  color: #ffc32f;
   border: 0;
-  background-color: #FFD32F;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
   color: #FFD32F;
-  font-family: 'Leckerli One', 'Helvetica Neue', Helvetica, Arial, cursive;
+  font-family: 'Pacifico', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
