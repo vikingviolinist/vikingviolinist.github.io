@@ -1,12 +1,3 @@
-import { Typed } from 'typed.js';
-
-var options = {
-  strings: ["<i>Hei!</i> Jeg heter Michal.", "&amp; Jeg liker å bygge ting."],
-  typeSpeed: 30
-}
-
-var typed = new Typed(".intro-lead-in", options);
-
 (function($) {
   "use strict"; // Start of use strict
 
