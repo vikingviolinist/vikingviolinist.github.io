@@ -102,7 +102,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   color: #FFD32F;
-  font-family: 'Pacifico', 'Helvetica Neue', Helvetica, Arial, cursive;
+  font-family: 'Leckerli One', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -215,8 +215,7 @@ header.masthead .intro-text .intro-heading {
 .skillbar {
   position: relative;
   margin: 10px 0 10px 0;
-  width: 100%;
-  background: #eee;
+  background: rgb(247, 247, 247);
   height: 35px;
   border-radius: 3px;
   -moz-border-radius:3px;
