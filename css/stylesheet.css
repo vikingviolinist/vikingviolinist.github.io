@@ -90,12 +90,17 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   right: 0;
+  padding: 0;
   text-transform: uppercase;
   color: #ffc32f;
   border: 0;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+  outline: none;
 }
 
 #mainNav .navbar-brand {
