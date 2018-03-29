@@ -1,4 +1,4 @@
-import Typed from 'typed.js';
+import { Typed } from 'typed.js';
 
 var options = {
   strings: ["<i>Hei!</i> Jeg heter Michal.", "&amp; Jeg liker å bygge ting."],
