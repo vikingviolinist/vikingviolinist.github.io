@@ -216,7 +216,7 @@ header.masthead .intro-text .intro-heading {
   position: relative;
   display: block;
   margin: 15px auto 0 auto;
-  width: 70%;
+  width: 100%;
   background: #eee;
   height: 35px;
   border-radius: 3px;
@@ -232,12 +232,6 @@ header.masthead .intro-text .intro-heading {
   -moz-transition-property:width, background-color;
 -ms-transition-property:width, background-color;
 -o-transition-property:width, background-color;
-}
-
-@media (max-width: 768px) {
-  .skillbar {
-    width: 100%;
-  }
 }
 
 .skillbar-title {
