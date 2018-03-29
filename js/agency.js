@@ -49,3 +49,10 @@ $(function(){
 		},5000);
 	});
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  Typed.new('.intro-lead-in', {
+    strings: ["Hei!", "Hei heter Michal.", "Jeg liker å bygge ting."],
+    typedSpeed: 0
+  });
+});
