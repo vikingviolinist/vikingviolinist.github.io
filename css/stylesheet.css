@@ -99,6 +99,36 @@ img::-moz-selection {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* Animates the toggler button */
+
+#mainNav .navbar-toggler i, #mainNav .navbar-toggler i:before, #mainNav .navbar-toggler i:after {
+  display: block;
+  content: '';
+  transition: all 500ms ease-in-out;
+}
+
+#mainNav .navbar-toggler i:before {
+  top: -10px;
+}
+
+#mainNav .navbar-toggler i:after {
+  bottom: -10px;
+}
+#mainNav .navbar-toggler.active i {
+  background-color: transparent;
+}
+#mainNav .navbar-toggler.active i:before, #mainNav .navbar-toggler.active i:after {
+  top: 0;
+}
+#mainNav .navbar-toggler.active i:before {
+  transform: rotate(-45deg);
+}
+#mainNav .navbar-toggler.active i:after {
+  transform: rotate(-45deg);
+}
+
+/* End of transformation */
+
 .navbar-toggler:not(:disabled):not(.disabled) {
   outline: none;
 }
@@ -239,11 +269,10 @@ header.masthead .intro-text .intro-heading {
   position: absolute;
   top: 0;
   left: 0;
-  width: 110px;
-  font-size: 13px;
+  width: 100px;
+  font-size: 0.8rem;
   color: #fff;
-  background: #6adcfa;
-  -webkit-border-top-left-radius:3px;
+-webkit-border-top-left-radius:3px;
 -webkit-border-bottom-left-radius:4px;
 -moz-border-radius-topleft:3px;
 -moz-border-radius-bottomleft:3px;
@@ -268,7 +297,6 @@ border-bottom-left-radius:3px;
 .skillbar-bar {
   height: 35px;
   width: 0;
-  background: #6adcfa;
   border-radius: 3px;
   -moz-border-radius:3px;
 -webkit-border-radius:3px;

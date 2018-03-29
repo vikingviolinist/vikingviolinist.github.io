@@ -41,7 +41,7 @@
 
 })(jQuery); // End of use strict
 
-//Animated Skillbars
+//Animates Skillbars
 $(function(){
 	$('.skillbar').each(function(){
 		$(this).find('.skillbar-bar').animate({
@@ -50,3 +50,9 @@ $(function(){
 	});
 });
 //End of Animated Skillbars
+
+// Animates toggler
+document.querySelector("#mainNav .navbar-toggler").addEventListener("click", function()
+{
+  this.classList.toggle("active");
+});
