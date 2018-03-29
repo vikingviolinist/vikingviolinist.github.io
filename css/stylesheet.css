@@ -214,7 +214,7 @@ header.masthead .intro-text .intro-heading {
 
 .skillbar {
   position: relative;
-  margin: 10px;
+  margin: 10px 0 10px 0;
   width: 100%;
   background: #eee;
   height: 35px;
