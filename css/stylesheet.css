@@ -99,36 +99,6 @@ img::-moz-selection {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* Animates the toggler button */
-
-#mainNav .navbar-toggler i, #mainNav .navbar-toggler i:before, #mainNav .navbar-toggler i:after {
-  display: block;
-  content: '';
-  transition: all 500ms ease-in-out;
-}
-
-#mainNav .navbar-toggler i:before {
-  top: -10px;
-}
-
-#mainNav .navbar-toggler i:after {
-  bottom: -10px;
-}
-#mainNav .navbar-toggler.active i {
-  background-color: transparent;
-}
-#mainNav .navbar-toggler.active i:before, #mainNav .navbar-toggler.active i:after {
-  top: 0;
-}
-#mainNav .navbar-toggler.active i:before {
-  transform: rotate(-45deg);
-}
-#mainNav .navbar-toggler.active i:after {
-  transform: rotate(-45deg);
-}
-
-/* End of transformation */
-
 .navbar-toggler:not(:disabled):not(.disabled) {
   outline: none;
 }

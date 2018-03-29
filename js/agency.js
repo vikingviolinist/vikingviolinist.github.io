@@ -49,10 +49,3 @@ $(function(){
 		},5000);
 	});
 });
-//End of Animated Skillbars
-
-// Animates toggler
-document.querySelector("#mainNav .navbar-toggler").addEventListener("click", function()
-{
-  this.classList.toggle("active");
-});
