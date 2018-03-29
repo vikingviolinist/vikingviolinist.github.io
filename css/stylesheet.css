@@ -102,7 +102,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   color: #FFD32F;
-  font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, cursive;
+  font-family: 'Pacifico', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -176,7 +176,7 @@ header.masthead .intro-text .intro-lead-in {
   font-size: 1.6rem;
   line-height: 1,7rem;
   margin-bottom: 30px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Pacifico', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
   
 header.masthead .intro-text .intro-heading {
@@ -202,7 +202,7 @@ header.masthead .intro-text .intro-heading {
     font-size: 1.6rem;
     line-height: 1.7rem;
     margin-bottom: 55px;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Pacifico', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   } 
 }
 
@@ -362,7 +362,7 @@ section div svg {
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
-  font-size: 16px;
+  font-size: 14px;
   font-style: italic;
   margin: 0;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
