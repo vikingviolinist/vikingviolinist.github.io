@@ -43,7 +43,7 @@
 
 //Animates Skillbars
 $(function(){
-	$('.skillbar').each(function(){
+	$('.skillbar').scroll(function(){
 		$(this).find('.skillbar-bar').animate({
 			width:$(this).attr('data-percent')
 		},5000);
