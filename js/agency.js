@@ -50,3 +50,10 @@ $(function(){
 	});
 });
 
+// Typing effect on intro text
+$(function() {
+  $("intro-lead-in").typed({
+    strings: ["Hei!", "Jeg heter Michal.", "Jeg liker å bygge ting."],
+    typeSpeed: 4
+  });
+});
