@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -67,7 +67,7 @@
   </g>
   <g
      id="g3743"
-     transform="matrix(0.66486068,0,0,0.74988906,4.9743737,2.893197)">
+     transform="matrix(0.64621961,0,0,0.75400182,7.3582843,2.8908152)">
     <title
        id="title3738">Layer 1</title>
     <g
