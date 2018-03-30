@@ -176,7 +176,7 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.6rem;
   margin-bottom: 30px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -218,7 +218,7 @@ header.masthead .intro-text .intro-heading {
 .skillbar {
   position: relative;
   margin: 10px 0 10px 0;
-  background: rgb(247, 247, 247);
+  background: #F8F9FA;
   height: 35px;
   border-radius: 3px;
   -moz-border-radius:3px;
