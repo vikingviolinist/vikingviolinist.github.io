@@ -129,7 +129,7 @@ img::-moz-selection {
 }
 
 a.navbar-brand.js-scroll-trigger svg {
-  height: 100%;
+  width: 200px;
 }
 
 @media (min-width: 992px) {
