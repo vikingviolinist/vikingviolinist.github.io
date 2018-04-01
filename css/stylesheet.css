@@ -124,7 +124,7 @@ img::-moz-selection {
 
 a.navbar-brand {
   min-width: 170px;
-  position: relatvie;
+  position: relative;
 }
 
 @media (min-width: 992px) {
