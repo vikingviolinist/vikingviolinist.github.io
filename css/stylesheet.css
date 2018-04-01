@@ -128,8 +128,10 @@ img::-moz-selection {
   color: #FFD32F;
 }
 
-a.navbar-brand.js-scroll-trigger svg {
-  width: 200px;
+a.navbar-brand {
+  min-width: 200px;
+  padding: 10px;
+  position: relatvie;
 }
 
 @media (min-width: 992px) {
