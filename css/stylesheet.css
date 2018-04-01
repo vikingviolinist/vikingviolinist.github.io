@@ -103,6 +103,7 @@ img::-moz-selection {
   outline: none;
 }
 
+/*
 #mainNav .navbar-brand {
   color: #FFD32F;
   font-family: 'Pacifico', 'Helvetica Neue', Helvetica, Arial, cursive;
@@ -112,6 +113,7 @@ img::-moz-selection {
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #FFD32F;
 }
+*/
 
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
@@ -124,6 +126,10 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #FFD32F;
+}
+
+a.navbar-brand.js-scroll-trigger svg {
+  height: 100%;
 }
 
 @media (min-width: 992px) {
@@ -142,7 +148,6 @@ img::-moz-selection {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    height: 1.75rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
@@ -156,7 +161,6 @@ img::-moz-selection {
     font-size: 1.25em;
     letter-spacing: .18rem;
     padding: 12px 0;
-    height: 1.25rem;
   }
 }
 
