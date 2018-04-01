@@ -123,7 +123,7 @@ img::-moz-selection {
 }
 
 a.navbar-brand {
-  min-width: 200px;
+  min-width: 170px;
   position: relatvie;
 }
 
@@ -138,6 +138,7 @@ a.navbar-brand {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
+    min-width: 200px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
