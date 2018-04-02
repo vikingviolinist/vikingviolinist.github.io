@@ -94,7 +94,7 @@ img::-moz-selection {
   right: 0;
   padding: 0;
   text-transform: uppercase;
-  color: #FFC32F;
+  color: #FFD32F;
   border: 0;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -104,7 +104,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #FFD32F; 
+  color: #FEC503; 
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
