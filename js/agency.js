@@ -1,5 +1,5 @@
 (function($) {
-  "use strict"; // Start of use strict
+  "use strict";
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
@@ -15,7 +15,7 @@
     }
   });
 
-  // Closes responsive menu when a scroll trigger link is clicked
+  // Closes responsive menu when scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
@@ -39,9 +39,7 @@
   // Collapses the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-})(jQuery); // End of use strict
-
-//Animates Skillbars
+  //Animates Skillbars
 $(function(){
 	$('.skillbar').each(function(){
 		$(this).find('.skillbar-bar').animate({
@@ -49,3 +47,7 @@ $(function(){
 		},5000);
 	});
 });
+
+})(jQuery);
+
+
