@@ -103,10 +103,6 @@ img::-moz-selection {
   outline: none;
 }
 
-#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #FEC503; 
-}
-
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
   font-weight: 400;
@@ -129,11 +125,11 @@ a.navbar-brand {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.4s;
-    -moz-transition: padding-top 0.3s, padding-bottom 0.4s;
-    -ms-transition: padding-top 0.3s, padding-bottom 0.4s;
-    -o-transition: padding-top 0.3s, padding-bottom 0.4s;
-    transition: padding-top 0.3s, padding-bottom 0.4s;
+    -webkit-transition: padding-top 0.4s, padding-bottom 0.4s;
+    -moz-transition: padding-top 0.4s, padding-bottom 0.4s;
+    -ms-transition: padding-top 0.4s, padding-bottom 0.4s;
+    -o-transition: padding-top 0.4s, padding-bottom 0.4s;
+    transition: padding-top 0.4s, padding-bottom 0.4s;
     border: none;
     background-color: transparent;
   }
@@ -223,18 +219,18 @@ header.masthead .intro-text .intro-heading {
   background: #F8F9FA;
   height: 35px;
   border-radius: 3px;
-  -moz-border-radius:3px;
-  -webkit-border-radius:3px;
-  transition:0.4s linear;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  transition: 0.4s linear;
   -webkit-transition: 0.4s linear;
-  -moz-transition:0.4s linear;
--ms-transition:0.4s linear;
-  -o-transition:0.4s linear;
-  transition-property:width, background-color;
+  -moz-transition: 0.4s linear;
+-ms-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition-property: width, background-color;
   -webkit-transition-property: width, background-color;
-  -moz-transition-property:width, background-color;
--ms-transition-property:width, background-color;
--o-transition-property:width, background-color;
+  -moz-transition-property: width, background-color;
+-ms-transition-property: width, background-color;
+-o-transition-property: width, background-color;
 }
 
 .skillbar-title {
@@ -244,12 +240,12 @@ header.masthead .intro-text .intro-heading {
   width: 100px;
   font-size: 0.8rem;
   color: #fff;
--webkit-border-top-left-radius:3px;
--webkit-border-bottom-left-radius:4px;
--moz-border-radius-topleft:3px;
--moz-border-radius-bottomleft:3px;
-border-top-left-radius:3px;
-border-bottom-left-radius:3px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 
 .skillbar-title span {
@@ -258,20 +254,20 @@ border-bottom-left-radius:3px;
   padding: 0px 20px;
   height: 35px;
   line-height: 35px;
-  -webkit-border-top-left-radius:3px;
--webkit-border-bottom-left-radius:3px;
--moz-border-radius-topleft:3px;
--moz-border-radius-bottomleft:3px;
-border-top-left-radius:3px;
-border-bottom-left-radius:3px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 
 .skillbar-bar {
   height: 35px;
   width: 0;
   border-radius: 3px;
-  -moz-border-radius:3px;
--webkit-border-radius:3px;
+  -moz-border-radius: 3px;
+-webkit-border-radius: 3px;
 }
 
 .skill-bar-percent {
@@ -331,7 +327,7 @@ section div svg {
   height: 20px;
   margin-top: -12px;
   text-align: center;
-  color: white;
+  color: #FFF;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -367,7 +363,7 @@ section div svg {
   z-index: 2;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
@@ -565,7 +561,7 @@ section#education {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 15px 0;
   text-align: center;
   background: #9F9F9F;
 }
@@ -590,7 +586,7 @@ ul.social-buttons li a {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  color: white;
+  color: #FFF;
   border-radius: 100%;
   outline: none;
   background-color: #373737;
