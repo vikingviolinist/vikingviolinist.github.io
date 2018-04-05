@@ -40,12 +40,19 @@
   $(window).scroll(navbarCollapse);
 
   //Animates Skillbars
-$(function(){
-	$('.skillbar').each(function(){
-		$(this).find('.skillbar-bar').animate({
-			width:$(this).attr('data-percent')
-		},5000);
-	});
+$(window).on('scroll', function(){
+  var skillsContainer = $('#skillbars');
+  var windowTop = $(window).scrollTop();
+  var windowHeight = $(window).height();
+  var skillbarTop = skillsContainer.offset().top;
+  
+  if (windowTop + windowHeight > skillbarTop) {
+    $('.skillbar').each(function(){
+      $(this).find('.skillbar-bar').animate({
+        width:$(this).attr('data-percent')
+      }, 5000);
+    });
+  }
 });
 
 })(jQuery);
