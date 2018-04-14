@@ -15,18 +15,18 @@
     }
   });
 
-  // Closes responsive menu when scroll trigger link is clicked
+  // Close responsive menu when scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
 
-  // Activates scrollspy to add active class to navbar items on scroll
+  // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
     offset: 56
   });
 
-  // Collapses Navbar
+  // Collapse the navigation bar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
@@ -34,7 +34,7 @@
       $("#mainNav").removeClass("navbar-shrink");
     }
   };
-  // Collapses the navbar if page is not at the top
+  // Collapse the navigation bar if page is not at the top
   navbarCollapse();
   // Collapses the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
