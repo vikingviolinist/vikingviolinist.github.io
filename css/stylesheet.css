@@ -159,7 +159,7 @@ header.masthead {
   text-align: center;
   color: white;
   height: 100vh;
-  background: url(img/f_hole.svg), #373737;
+  background: url(/img/f_hole.svg), #373737;
   background-attachment: fixed;
 }
 
