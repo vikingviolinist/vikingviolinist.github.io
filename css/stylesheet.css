@@ -159,14 +159,8 @@ header.masthead {
   text-align: center;
   color: white;
   height: 100vh;
-  background: linear-gradient(175deg, #373737 50%, #fff);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(img/f_holes.svg), #373737;
+  background-attachment: fixed;
 }
 
 header.masthead .intro-text {

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="123.89822"
+   height="143.24365"
+   id="svg4779"
+   version="1.1"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="f_holes.svg">
+  <title
+     id="title8365">Violin F hole template</title>
+  <defs
+     id="defs4781" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="1.0"
+     inkscape:pageopacity="1.0"
+     inkscape:pageshadow="0"
+     inkscape:zoom="1.9233304"
+     inkscape:cx="12.512731"
+     inkscape:cy="75.353663"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     showborder="false"
+     fit-margin-top="20"
+     fit-margin-left="20"
+     fit-margin-right="20"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="mm" />
+  <metadata
+     id="metadata4784">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Violin F hole template</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Vojtěch Blahout</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:date>9.12.2012</dc:date>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1028.6137,1542.6067)">
+    <g
+       id="g16"
+       transform="matrix(0.5,0,0,0.5,-443.76617,-730.49242)">
+      <g
+         id="g9303"
+         style="display:inline"
+         transform="translate(-1253.8514,-2985.0606)">
+        <path
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccccczzccccc"
+           id="path4014-8"
+           d="m 260.99251,1405.0049 12.88491,15.0039 c -6.33974,5.397 -6.91986,11.7233 -3.91811,17.7654 2.79858,4.7279 9.39378,6.1777 14.58215,3.3698 14.90229,-8.6016 2.97205,-29.2657 -8.32413,-35.8434 -12.46952,-7.671 -23.48465,-2.9727 -32.06999,2.2816 -32.57131,21.0958 -31.29905,53.0495 -36.53204,111.7787 l -3.80143,2.2686 3.46803,2.8209 c -1.81268,50.3552 -7.19548,108.8638 -47.31312,118.9301 l -13.70647,-17.533 c 6.63203,-1.8678 11.01697,-7.1683 12.24781,-13.0208 1.58418,-12.036 -9.34214,-23.7985 -23.61721,-18.9647 -14.27507,4.8337 -12.70367,27.7181 -1.47322,39.9927 11.23043,12.2746 28.2174,15.8516 42.3734,10.8362 41.92159,-16.3793 51.61678,-67.3469 52.89911,-111.1003 l 3.68819,-2.1338 -3.4807,-3.4122 c 2.6751,-40.5983 -4.97189,-105.0606 32.09282,-123.0397 z"
+           style="display:inline;fill:none;stroke:#000000;stroke-width:0.87053728;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+    </g>
+  </g>
+</svg>
